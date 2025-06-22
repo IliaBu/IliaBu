@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <style>
+    svg {
+      background-color: background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    @keyframes fall {
+      from { transform: translateY(-100px); }
+      to { transform: translateY(600px); }
+    }
+    
+    .matrix-char {
+      font-family: monospace;
+      font-weight: bold;
+    }
+    
+    .bright {
+      fill: hsl(136, 100%, 85%);
+      filter: drop-shadow(0 0 3px #fff) drop-shadow(0 0 5px currentColor);
+    }
+    
+    .medium {
+      fill: hsl(136, 100%, 70%);
+    }
+    
+    .dim {
+      fill: hsl(136, 100%, 50%);
+    }
+    
+    .faint {
+      fill: hsl(136, 100%, 30%);
+    }
+  </style>
+  
+  <!-- Column 1 -->
+  <g style="animation: fall 8s linear infinite;">
+    <text class="matrix-char faint" x="50" y="20" font-size="15">Ф</text>
+    <text class="matrix-char dim" x="50" y="40" font-size="15">Д</text>
+    <text class="matrix-char medium" x="50" y="60" font-size="15">Ж</text>
+    <text class="matrix-char bright" x="50" y="80" font-size="15">Ц</text>
+  </g>
+  
+  <!-- Column 2 -->
+  <g style="animation: fall 6s linear infinite 0.5s;">
+    <text class="matrix-char faint" x="80" y="20" font-size="20">Ч</text>
+    <text class="matrix-char dim" x="80" y="45" font-size="20">Щ</text>
+    <text class="matrix-char medium" x="80" y="70" font-size="20">Б</text>
+    <text class="matrix-char bright" x="80" y="95" font-size="20">Г</text>
+  </g>
+  
+  <!-- Column 3 -->
+  <g style="animation: fall 9s linear infinite 1s;">
+    <text class="matrix-char faint" x="110" y="20" font-size="12">Д</text>
+    <text class="matrix-char dim" x="110" y="35" font-size="12">Ж</text>
+    <text class="matrix-char medium" x="110" y="50" font-size="12">Л</text>
+    <text class="matrix-char bright" x="110" y="65" font-size="12">П</text>
+  </g>
+  
+  <!-- Column 4 -->
+  <g style="animation: fall 7s linear infinite 1.5s;">
+    <text class="matrix-char faint" x="140" y="20" font-size="25">Р</text>
+    <text class="matrix-char dim" x="140" y="50" font-size="25">С</text>
+    <text class="matrix-char medium" x="140" y="80" font-size="25">Т</text>
+    <text class="matrix-char bright" x="140" y="110" font-size="25">У</text>
+  </g>
+  
+  <!-- Column 5 -->
+  <g style="animation: fall 10s linear infinite 2s;">
+    <text class="matrix-char faint" x="180" y="20" font-size="18">Ф</text>
+    <text class="matrix-char dim" x="180" y="42" font-size="18">Х</text>
+    <text class="matrix-char medium" x="180" y="64" font-size="18">Ц</text>
+    <text class="matrix-char bright" x="180" y="86" font-size="18">Ч</text>
+  </g>
+  
+  <!-- Column 6 -->
+  <g style="animation: fall 5s linear infinite 2.5s;">
+    <text class="matrix-char faint" x="220" y="20" font-size="14">Ш</text>
+    <text class="matrix-char dim" x="220" y="38" font-size="14">Щ</text>
+    <text class="matrix-char medium" x="220" y="56" font-size="14">Ъ</text>
+    <text class="matrix-char bright" x="220" y="74" font-size="14">Ы</text>
+  </g>
+  
+  <!-- Column 7 -->
+  <g style="animation: fall 8.5s linear infinite 3s;">
+    <text class="matrix-char faint" x="250" y="20" font-size="22">Ь</text>
+    <text class="matrix-char dim" x="250" y="47" font-size="22">Э</text>
+    <text class="matrix-char medium" x="250" y="74" font-size="22">Ю</text>
+    <text class="matrix-char bright" x="250" y="101" font-size="22">Я</text>
+  </g>
+  
+  <!-- Column 8 -->
+  <g style="animation: fall 7.5s linear infinite 3.5s;">
+    <text class="matrix-char faint" x="290" y="20" font-size="16">А</text>
+    <text class="matrix-char dim" x="290" y="40" font-size="16">Б</text>
+    <text class="matrix-char medium" x="290" y="60" font-size="16">В</text>
+    <text class="matrix-char bright" x="290" y="80" font-size="16">Г</text>
+  </g>
+  
+  <!-- Column 9 -->
+  <g style="animation: fall 9.5s linear infinite 4s;">
+    <text class="matrix-char faint" x="320" y="20" font-size="19">Д</text>
+    <text class="matrix-char dim" x="320" y="43" font-size="19">Е</text>
+    <text class="matrix-char medium" x="320" y="66" font-size="19">Ё</text>
+    <text class="matrix-char bright" x="320" y="89" font-size="19">Ж</text>
+  </g>
+  
+  <!-- Column 10 -->
+  <g style="animation: fall 6.5s linear infinite 4.5s;">
+    <text class="matrix-char faint" x="360" y="20" font-size="21">З</text>
+    <text class="matrix-char dim" x="360" y="45" font-size="21">И</text>
+    <text class="matrix-char medium" x="360" y="70" font-size="21">Й</text>
+    <text class="matrix-char bright" x="360" y="95" font-size="21">К</text>
+  </g>
+  
+  <!-- Column 11 -->
+  <g style="animation: fall 8s linear infinite 5s;">
+    <text class="matrix-char faint" x="400" y="20" font-size="17">Л</text>
+    <text class="matrix-char dim" x="400" y="41" font-size="17">М</text>
+    <text class="matrix-char medium" x="400" y="62" font-size="17">Н</text>
+    <text class="matrix-char bright" x="400" y="83" font-size="17">О</text>
+  </g>
+  
+  <!-- Column 12 -->
+  <g style="animation: fall 7s linear infinite 5.5s;">
+    <text class="matrix-char faint" x="430" y="20" font-size="23">П</text>
+    <text class="matrix-char dim" x="430" y="48" font-size="23">Р</text>
+    <text class="matrix-char medium" x="430" y="76" font-size="23">С</text>
+    <text class="matrix-char bright" x="430" y="104" font-size="23">Т</text>
+  </g>
+  
+  <!-- Column 13 -->
+  <g style="animation: fall 9s linear infinite 6s;">
+    <text class="matrix-char faint" x="470" y="20" font-size="13">У</text>
+    <text class="matrix-char dim" x="470" y="37" font-size="13">Ф</text>
+    <text class="matrix-char medium" x="470" y="54" font-size="13">Х</text>
+    <text class="matrix-char bright" x="470" y="71" font-size="13">Ц</text>
+  </g>
+  
+  <!-- Column 14 -->
+  <g style="animation: fall 6s linear infinite 6.5s;">
+    <text class="matrix-char faint" x="500" y="20" font-size="24">Ч</text>
+    <text class="matrix-char dim" x="500" y="49" font-size="24">Ш</text>
+    <text class="matrix-char medium" x="500" y="78" font-size="24">Щ</text>
+    <text class="matrix-char bright" x="500" y="107" font-size="24">Ъ</text>
+  </g>
+  
+  <!-- Column 15 -->
+  <g style="animation: fall 10s linear infinite 7s;">
+    <text class="matrix-char faint" x="540" y="20" font-size="15">Ы</text>
+    <text class="matrix-char dim" x="540" y="40" font-size="15">Ь</text>
+    <text class="matrix-char medium" x="540" y="60" font-size="15">Э</text>
+    <text class="matrix-char bright" x="540" y="80" font-size="15">Ю</text>
+  </g>
+  
+  <!-- Column 16 -->
+  <g style="animation: fall 7.5s linear infinite 7.5s;">
+    <text class="matrix-char faint" x="570" y="20" font-size="20">Я</text>
+    <text class="matrix-char dim" x="570" y="45" font-size="20">А</text>
+    <text class="matrix-char medium" x="570" y="70" font-size="20">Б</text>
+    <text class="matrix-char bright" x="570" y="95" font-size="20">В</text>
+  </g>
+  
+  <!-- Column 17 -->
+  <g style="animation: fall 8.5s linear infinite 8s;">
+    <text class="matrix-char faint" x="610" y="20" font-size="18">Г</text>
+    <text class="matrix-char dim" x="610" y="42" font-size="18">Д</text>
+    <text class="matrix-char medium" x="610" y="64" font-size="18">Е</text>
+    <text class="matrix-char bright" x="610" y="86" font-size="18">Ё</text>
+  </g>
+  
+  <!-- Column 18 -->
+  <g style="animation: fall 6.5s linear infinite 8.5s;">
+    <text class="matrix-char faint" x="640" y="20" font-size="16">Ж</text>
+    <text class="matrix-char dim" x="640" y="40" font-size="16">З</text>
+    <text class="matrix-char medium" x="640" y="60" font-size="16">И</text>
+    <text class="matrix-char bright" x="640" y="80" font-size="16">Й</text>
+  </g>
+  
+  <!-- Column 19 -->
+  <g style="animation: fall 9.5s linear infinite 9s;">
+    <text class="matrix-char faint" x="670" y="20" font-size="22">К</text>
+    <text class="matrix-char dim" x="670" y="47" font-size="22">Л</text>
+    <text class="matrix-char medium" x="670" y="74" font-size="22">М</text>
+    <text class="matrix-char bright" x="670" y="101" font-size="22">Н</text>
+  </g>
+  
+  <!-- Column 20 -->
+  <g style="animation: fall 7s linear infinite 9.5s;">
+    <text class="matrix-char faint" x="710" y="20" font-size="19">О</text>
+    <text class="matrix-char dim" x="710" y="43" font-size="19">П</text>
+    <text class="matrix-char medium" x="710" y="66" font-size="19">Р</text>
+    <text class="matrix-char bright" x="710" y="89" font-size="19">С</text>
+  </g>
+</svg>
